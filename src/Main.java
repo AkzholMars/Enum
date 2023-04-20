@@ -14,7 +14,7 @@ public class Main {
             System.out.println("Заблокирован");
         } else if (Blacklist.OTMYV.getList().contains(fullname)) {
             list.add(fullname);
-            System.out.println("Под наблюдением");
+            System.out.println("Под наблюдением" + list);
         }
         else
             System.out.println("Одобрено");
